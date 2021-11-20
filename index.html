@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="nsv.css">
@@ -12,6 +12,7 @@
     <title>NSV 2022 - 15th International Workshop on Numerical Software Verification 2022</title>
   </head>
   <body>
+    <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">NSV 22</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,455 +63,149 @@
         </ul>
       </div>
     </nav>
+    </div>
 
+    <div class="container">
     <div class="jumbotron">
-    <div class="container" id="home">
-      <h1 class="display-3">NSV 22</h1>
-      <h3>
-      15th International Workshop on Numerical Software Verification 2022<br>
-      collocated with FLoC, 11 August 2022<br>
-      Haifa, Israel
-      </h3>
-      <!--
-      <p><a class="btn btn-primary btn-lg" href="#schedule" role="button">Go to schedule&raquo;</a></p>-->
-      <!-- background picture from https://www.sunn-starr.com/_images/Downtown-Los-Angeles_(300-dpi).jpg Public Domain -->
+      <div class="container" id="home">
+	  <br>
+	  <br>
+	  <br>	
+	<h1 class="display-3">NSV 22</h1>
+	<h3>
+	  15th International Workshop on Numerical Software
+	  Verification 2022<br> collocated with FLoC, August 11,
+	  2022<br> Haifa, Israel
+	</h3>
+      </div>
     </div>
     </div>
     
-<div class="container" id="program">
-      <h2 class="border-bottom">Program</h2>
-      <h4> 18.07.2021</h4>
-      <div class="row">
-        <div class="col">
-        <div class="list-group">
-            <a class="list-group-item">
-            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target="#t1"> 
-              <div class="d-flex flex-row">
-                <div class="p-2"> 8:00 PDT / 17:00 CEST </div>
-                <div class="p-2"><i>Verifying Neural Networks and Cyber-Physical Systems using Reachability</i><br/>Stanley Bak (Stony Brook University, USA)</div>
-                <div class="ml-auto p-2">
-                  <span class="badge badge-primary badge-pill">Invited talk</span><br/>
-                </div>  
-              </div>
-            </a>
-            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target="#t2">
-              <div class="d-flex flex-row">
-                <div class="p-2">9:00 PDT / 18:00 CEST</div>
-                <div class="p-2"><i>Convex Computations for Reach Sets</i><br />Bai Xue (State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences, China)</div>
-                <div class="ml-auto p-2">
-                  <span class="badge badge-primary badge-pill">Invited talk</span><br/>
-                </div>  
-              </div>
-            </a>
-            <a class="list-group-item">
-              <div class="d-flex flex-row">
-                <div class="p-2">10:00 PDT / 19:00 CEST</div>
-                <div class="p-2">Break</div>
-              </div>
-            </a>
-            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target="#t3">
-              <div class="d-flex flex-row">
-                <div class="p-2">10:15 PDT / 19:15 CEST</div>
-                <div class="p-2"><i>Verified AI-Based Autonomy: A Numerical Software Perspective</i><br />Sanjit A. Seshia (University of California, Berkeley, USA)</div>
-                <div class="ml-auto p-2">
-                  <span class="badge badge-primary badge-pill">Invited talk</span><br/>
-                </div>  
-              </div>
-            </a>
-
-            <a class="list-group-item">
-              <div class="d-flex flex-row">
-                <div class="p-2">11:15 PDT / 20:15 CEST</div>
-                <div class="p-2">Break</div>
-              </div>
-            </a>
-            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target="#t4">
-              <div class="d-flex flex-row">
-                <div class="p-2"> 11:30 PDT / 20:30 CEST</div>
-                <div class="p-2"><i>Formal Verification of Neural Network Controllers for Collision-Free Flight</i><br />Daniel Genin, Ivan Papusha, Joshua Brule, Tyler Young, Galen Mullins, Yanni Kouskoulas, Rosa Wu and Aurora Schmidt</div>
-                <div class="ml-auto p-2">
-                </div>
-              </div>
-            </a>
-        </div>
-
-        <div class="modal fade" id="t1" tabindex="-1" role="dialog">
-          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title">18.07.2021, 8:00</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                    <h6>Stanley Bak<br/><i>Verifying Neural Networks and Cyber-Physical Systems using Reachability</i> (Invited talk)</h6>
-                    <p>Neural Networks have made great advances in vision and game-playing in the last decade. Beyond these core areas, however, almost every other field has at least attempted to use neural networks to some extent. Cyber-physical systems (CPS), where computers interact with the physical world, are no different. Although learning-based controllers have long been looked at in control theory, recent interest in combining CPS with neural networks has soared. One important distinction with CPS, however, is that these systems are not confined to the digital world. Behaviors of a neural network in a CPS may manifest in the physical world. CPS are often safety-critical and cannot tolerate any mistakes.<br />
-
-The field of formal verification has traditionally looked at proving properties about finite state machines or software programs. Recent research has also looked at other classes of systems such as CPS models given with differential equations, or even systems that include neural networks. We present verification methods and optimizations that make scalable analysis increasingly practical.
-</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="modal fade" id="t2" tabindex="-1" role="dialog">
-          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title">18.07.2021, 09:00</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                    <h6>Bai Xue<br/> <i>Convex Computations for Reach Sets</i> (Invited talk)</h6>
-                    <p>Cyber-physical technology is integrated into an ever-growing range of physical devices and increasingly pervades our daily life.
-Examples of such systems range from intelligent highway systems, as well as computer and communication networks, to smart houses and smart supplies, etc. 
-Many of the above-mentioned applications are safety critical and require a rigorous guarantee of safe operation. Computational reachability analysis, 
-which involves the computation of reach states, is a popular tool for providing formal safety verification and design of systems. In general, 
-the exact computation of reach sets is impossible for dynamical and hybrid systems. Outer- or inner-approximate reachability analysis is therefore studied in existing literature. 
-Outer-approximate reachabilty analysis computes a super-set of the reach set and is commonly used to verify safety specifications for systems starting 
-from a defined set of initial states. In contrast, inner-approximate reachability analysis computes a sub-set of the reach set and can be 
-used to determine a set of initial states (i.e., reach-avoid sets) such that the system reaches a given target set while avoiding a given unsafe set till the target hit.<br />
-
-In this talk I will share our recent findings on studying outer-approximate reachabilty analysis (i.e., the computation of PAC reach sets) of black-box 
-continuous-time systems and inner-approximate reachabilty analysis (i.e., the computation of reach-avoid sets)  of discrete-time polynomial systems based on convex optimization.
-</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="modal fade" id="t3" tabindex="-1" role="dialog">
-          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title">18.07.2021. 10:15</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                    <h6>Sanjit A. Seshia <br/><i>Verified AI-Based Autonomy: A Numerical Software Perspective</i> (Invited talk)</h6>
-                    <p>Verified artificial intelligence (AI) is the goal of designing AI-based systems that have strong, verified assurances of correctness with
-respect to mathematically-specified requirements. This goal is particularly
-important for autonomous and semi-autonomous systems. In this talk, I will
-consider Verified AI from a formal methods perspective and with a special
-focus on autonomy. Taking the perspective of numerical software verification,
-I will describe the challenges for and recent progress towards attaining Verified AI, 
-with examples from the domain of intelligent cyber-physical systems, with a 
-particular focus on autonomous vehicles and aerospace systems.</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="modal fade" id="t4" tabindex="-1" role="dialog">
-          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title">18.07.2021, 11:30</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                    <h6>Daniel Genin, Ivan Papusha, Joshua Brule, Tyler Young, Galen Mullins, Yanni Kouskoulas, Rosa Wu and Aurora Schmidt<br/><i>Formal Verification of Neural Network Controllers for Collision-Free Flight</i></h6>
-                    <p>We investigate a method for formally verifying the absence of adversarial examples in a neural network controller. Our approach applies to networks with piecewise affine activation units, which may be encoded symbolically as a piecewise affine mapping from inputs to outputs. The approach rests on characterizing and bounding a critical subset of the state space where controller action is required, partitioning this critical subset, and using satisfiability modulo theories (SMT) to prove nonexistence of safety counterexamples on each of the resulting partition elements. We demonstrate this approach on a simple collision avoidance neural network controller, trained with reinforcement learning to avoid collisions in a simplified simulated environment. After encoding the network weights in SMT, we formally verify safety of the neural network controller on a subset of the critical partition elements, and determine that the rest of the critical set partition elements are potentially unsafe.We further experimentally confirm the existence of actual adversarial collision scenarios in 90% of the identified potentially unsafe critical partition elements, indicating that our approach is reasonably tight.</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      <br />
-
-      <h4>19.07.2021</h4>
-      <div class="row">
-        <div class="col">
-        <div class="list-group">
-            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target="#t5"> 
-              <div class="d-flex flex-row">
-                <div class="p-2"> 8:00 PDT / 17:00 CEST </div>
-                <div class="p-2"><i>Soundly Approximating Numerical Kernels & Beyond
-</i><br/>Eva Darulova (Max Planck Institute for Software Systems, Germany)<br/></div>
-                <div class="ml-auto p-2">
-                  <span class="badge badge-primary badge-pill">Invited talk</span><br/>
-                </div>  
-              </div>
-            </a>
-            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target="#t6">
-              <div class="d-flex flex-row">
-                <div class="p-2">9:00 PDT / 18:00 CEST</div>
-                <div class="p-2"><i>Statistical verification of hyperproperties for cyber-physical systems</i><br />Yu Wang (Duke University, USA)</div>
-                <div class="ml-auto p-2">
-                  <span class="badge badge-primary badge-pill">Invited talk</span><br/>
-                </div>
-              </div>
-            </a>
-            <a class="list-group-item">
-              <div class="d-flex flex-row">
-                <div class="p-2">10:00 PDT / 19:00 CEST </div>
-                <div class="p-2">Break</div>
-              </div>
-            </a>
-            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target="#t7">
-              <div class="d-flex flex-row">
-                <div class="p-2">10:15 PDT / 19:15 CEST </div>
-                <div class="p-2"><i>Modeling round-off errors in hydrodynamic simulations</i><br /> William Weens, Thibaud Vazquez-Gonzalez and Louise Ben Salem-Knapp</div>
-                <div class="ml-auto p-2">
-                </div>
-              </div>
-            </a>
-            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target="#t8">
-              <div class="d-flex flex-row">
-                <div class="p-2">10:45 PDT / 19:45 CEST </div>
-                <div class="p-2"><i>An Efficient Summation Algorithm for the Accuracy, Convergence and Reproducibility of Parallel Numerical Methods</i><br />Farah Benmouhoub, Matthieu Martel and Pierre-Loic Garoche</div>
-                <div class="ml-auto p-2">
-                </div>
-              </div>
-            </a>
-            <a class="list-group-item">
-              <div class="d-flex flex-row">
-                <div class="p-2">11:15 PDT / 20:15 CEST </div>
-                <div class="p-2">Closing remarks</div>
-              </div>
-            </a>
-        </div>
-
-        <div class="modal fade" id="t5" tabindex="-1" role="dialog">
-          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title">19.07.2021, 8:00</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                    <h6>Eva Darulova<br/><i>Soundly Approximating Numerical Kernels & Beyond</i> (Invited Talk)</h6>
-                    <p>Computing resources are fundamentally limited and sometimes an exact solution may not even exist. Thus, when implementing real-world systems, approximations are inevitable, as are the errors they introduce. The magnitude of errors is problem-dependent but higher accuracy generally comes at a cost in terms of memory, energy or runtime, effectively creating an accuracy-efficiency tradeoff. To take advantage of this tradeoff, we need to ensure that the computed results are sufficiently accurate, otherwise we risk disastrously incorrect results or system failures. Unfortunately, the current way of programming with approximations is mostly manual, and consequently costly, error prone and often produces suboptimal results.
-I will show how we can already approximate straight-line numerical kernels fully automatically, while guaranteeing a user-provided error bound, and discuss our work towards supporting programs beyond kernels that feature conditional statements and loops.
-</p>
-            </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="modal fade" id="t6" tabindex="-1" role="dialog">
-          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title">19.07.2021, 9:00</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                    <h6>Yu Wang<br/><i>Statistical verification of hyperproperties for cyber-physical systems</i> (Invited talk)</h6>
-                    <p>Modern autonomous systems are typically built by integrating physical processes with cyber controllers. For assured functionality in various applications, these cyber-physical systems need verification for various properties about the relationship between multiple system executions (e.g., robustness and opacity) --- such properties are called hyperproperties. Verifying hyperproperties of cyber-physical systems is challenging due to 1) the complexity of system dynamics and 2) the “hyper” nature of the properties. This talk will introduce recent progress in the formal verification of hyperproperties for cyber-physical systems. We will discuss 1) how to formally capture general hypertrophies of interest by temporal logic and 2) how to develop new statistical inference methods to verify hyperproperties on cyber-physical systems scalably.</p>
-                   
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="modal fade" id="t7" tabindex="-1" role="dialog">
-          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title">19.07.2021, 10:15</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                    <h6>William Weens, Thibaud Vazquez-Gonzalez and Louise Ben Salem-Knapp<br/><i>Modeling round-off errors in hydrodynamic simulations</i></h6>
-                    <p>The growth of the computing capacities makes it possible
-to obtain more and more precise simulation results. These results are
-often calculated in binary64 with the idea that round-off errors are not
-significant. However, exascale is pushing back the known limits and the
-problems of accumulating round-off errors could come back and require
-increasing further the precision. But working with extended precision,
-regardless of the method used, has a significant cost in memory, compu-
-tation time and energy and would not allow to use the full performance
-of HPC computers. It is therefore important to measure the robustness
-of the binary64 by anticipating the future computing resources in or-
-der to ensure its durability in numerical simulations. For this purpose,
-numerical experiments have been performed and are presented in this
-article. Those were performed with weak floats which were specifically
-designed to conduct an empirical study of round-off errors in hydrody-
-namic simulations and to build an error model that extracts the part due
-to round-off error in the results. This model confirms that errors remain
-dominated by the scheme errors in our numerical experiments.</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="modal fade" id="t8" tabindex="-1" role="dialog">
-          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title">19.07.2021, 10:45</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                    <h6>Farah Benmouhoub, Matthieu Martel and Pierre-Loic Garoche<br/><i>An Efficient Summation Algorithm for the Accuracy, Convergence and Reproducibility of Parallel Numerical Methods</i></h6>
-                    <p>Nowadays, parallel computing is ubiquitous in several application fields, both in engineering and science. The computations rely on the floating-point arithmetic specified by the IEEE754 Standard. In this context, an elementary brick of computation, used everywhere, is the sum of a sequence of numbers. This sum is subject to many numerical errors in floating-point arithmetic. To alleviate this issue, we have introduced a new parallel algorithm for summing a sequence of floating-point numbers. This algorithm which scales up easily with the number of processors, adds numbers of the same exponents first. In this article, our main contribution is an extensive analysis of its efficiency with respect to several properties: accuracy, convergence and reproducibility. In order to show the usefulness of our algorithm, we have chosen a set of representative numerical methods which are Simpson, Jacobi, LU factorization and the Iterated power method.</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      <br />
+    <div class="container" id="program">
+      <h2 class="border-bottom">Program (TBD)</h2>
     </div>
    
     <div class="container" id="submission">
       <h2 class="border-bottom">Scope</h2>
       <div class="row">
-        <div class="col">
-          <p>Numerical computations are ubiquitous in digital systems: supervision, prediction, simulation and signal processing rely heavily on numerical calculus to achieve desired goals. Design and verification of numerical algorithms has a unique set of challenges, which set it apart from rest of software verification.
-            <!--To achieve the verification and validation of global properties, numerical techniques need to precisely represent local behaviors of each component.-->
-            The implementation of numerical techniques on modern hardware adds another layer of approximation because of the use of finite representations of infinite precision numbers that usually lack basic arithmetic properties such as commutativity and associativity.
-            Finally, the development and analysis of cyber-physical systems (CPS) which involve the interacting continuous and discrete components pose a further challenge. It is hence imperative to develop logical and mathematical techniques for the reasoning about programmability and reliability.
-            The NSV workshop is dedicated to the development of such techniques.
-            This year, the NSV workshop is hosting a <b>special session on numerical computations in machine learning</b>. This includes, but is not limited to, performance vs accuracy trade-offs, reliability, robustness, co-design of hardware and software for numerical computations in machine learning frameworks.
-          </p>
-        </div>
+	<div class="col">
+	  <p>Numerical computations are ubiquitous in digital systems:
+	    supervision, prediction, simulation and signal processing
+	    rely heavily on numerical calculus to achieve desired
+	    goals.  Design and verification of numerical algorithms
+	    has a unique set of challenges, which set it apart from
+	    rest of software verification. To achieve the verification
+	    and validation of global properties, numerical techniques
+	    need to precisely represent local behaviors of each
+	    component. The implementation of numerical techniques on
+	    modern hardware adds another layer of approximation
+	    because of the use of finite representations of infinite
+	    precision numbers that usually lack basic arithmetic
+	    properties such as commutativity and
+	    associativity. Finally, the development and analysis of
+	    cyber-physical systems (CPS) which involve the interaction
+	    of continuous and discrete components poses a further
+	    challenge. It is hence essential to develop logical and
+	    mathematical techniques for reasoning about
+	    programmability and reliability.  The NSV workshop is
+	    dedicated to the development of such techniques.
+	  </p>
+	</div>
       </div>
       <div class="row">
-        <div class="col">
-        <h3>Topics</h3>
-        <p>The scope of the workshop includes, but is not restricted to, the following topics:</p>
-        <ul>
-          <li>Quality of finite precision numerics</li>
-          <ul>
-            <li>Representations of real numbers such as dfloat, finite precision, logarithmic number systems, etc</li>
-          </ul>
-          <li>Validation and verification of machine learning algorithms</li>
-          <ul>  
-            <li>Performance-accuracy trade-offs in floating point representations in machine learning</li>
-            <li>Robustness, reliability, and hardware software co-design for numerical computations in machine learning</li>
-          </ul>
-          <li>Validation and verification in scientific computing and simulations</li>
-          <ul>
-            <li>Specifications of correctness of numerical algorithms</li>
-            <li>Numerical optimization methods</li>
-          </ul>
-          <li>Hybrid systems and control software verification</li>
-          <ul>
-            <li>Quantitative and qualitative analysis of hybrid systems</li>
-          <!--<li>Models and abstraction techniques</li>-->
-          <!--<li>Propagation of uncertainties, deterministic and probabilistic models</li>-->
-            <li>Optimal control and synthesis of dynamical systems</li>
-            <li>Applications in space, avionics, automotive, systems biology, etc</li>
-          </ul>
-        </ul>
-        </div>
+	<div class="col">
+	  <h3>Topics</h3>
+	  <p>The scope of the workshop includes, but is not restricted to, the following topics:</p>
+	  <ul>
+            <li>Quality of finite precision numerics</li>
+            <ul>
+              <li>Representations of real numbers such as dfloat, finite precision, logarithmic number systems, etc</li>
+            </ul>
+            <li>Validation and verification of machine learning algorithms</li>
+            <ul>  
+              <li>Performance-accuracy trade-offs in floating point representations in machine learning</li>
+              <li>Robustness, reliability, and hardware software co-design for numerical computations in machine learning</li>
+            </ul>
+            <li>Validation and verification in scientific computing and simulations</li>
+            <ul>
+              <li>Specifications of correctness of numerical algorithms</li>
+              <li>Numerical optimization methods</li>
+            </ul>
+            <li>Hybrid systems and control software verification</li>
+            <ul>
+              <li>Quantitative and qualitative analysis of hybrid systems</li>
+              <li>Optimal control and synthesis of dynamical systems</li>
+              <li>Applications in space, avionics, automotive, systems biology, etc</li>
+            </ul>
+	  </ul>
+	</div>
       </div>
-<!--         <div class="row">
-        <div class="col">
-
-        <h3>Proceedings</h3>
-        <p>The proceedings are available in Springer LNCS.
-     <a href="https://link.springer.com/book/10.1007/978-3-030-63618-0">https://link.springer.com/book/10.1007/978-3-030-63618-0</a>.</p>
-
-		</div>
-      </div> -->
     </div>
-
+    
     <div class="container" id="format">
       <h2 class="border-bottom">Submission Information</h2>
-       <div class="row" id="dates">
+      <div class="row" id="dates">
         <div class="col">
-        <h4>Important Dates</h4>
-        <table class="table table-hover table-sm">
-          <tbody>
-            <tr>
-              <th scope="row"><b>Submissions deadline:</b></th>
-              <td> <strike>April 23, 2021</strike> <font color="red"><b>May 14, 2021</b>  23:59 (AoE)</td></font>
-            </tr>
-            <tr>
-              <th scope="row">Notification:</th>
-              <td> <b> May 25, 2021</b></td>
-            </tr>
-            <!--<tr>
-              <th scope="row">Final version:</th>
-              <td> <b>2021</b></td>
-            </tr>-->
-            <tr>
-              <th scope="row">Workshop:</th>
-              <td> <b>July 18-19, 2021</b> (The workshop will be held online.)</td>
-            </tr>
-          </tbody>
-        </table>
+          <h4>Important Dates</h4>
+          <table class="table table-hover table-sm">
+            <tbody>
+              <tr>
+		<th scope="row"><b>Submissions deadline:</b></th>
+		<td> <b> April 28, 2022</b></td>
+              </tr>
+              <tr>
+		<th scope="row">Notification:</th>
+		<td> <b> May 28, 2022</b></td>
+              </tr>
+              <!--<tr>
+		  <th scope="row">Final version:</th>
+		  <td> <b>2021</b></td>
+              </tr>-->
+              <tr>
+		<th scope="row">Workshop:</th>
+		<td> <b>August, 2022</b> </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div> 
       <div class="row">
         <div class="col">
-        <h4>Instructions for Authors</h4>
-        <p>We solicit regular and short papers. 
-        Paper submission must be
-        performed via the EasyChair system: <em><a
-        href="https://easychair.org/conferences/?conf=nsv21" alt="EasyChair NSV 21">https://easychair.org/conferences/?conf=nsv21</a></em>.</p>
-        <p>Regular papers must describe original work, be written and presented in English, and must not substantially overlap with papers that have been published or that are under submission. Submitted papers will be judged on the basis of significance, relevance, correctness, originality, and clarity. They should clearly identify what has been accomplished and why it is significant.</p>
-        <p>Regular paper submissions should not exceed 15 pages in <a href="https://www.springer.com/us/computer-science/lncs/conference-proceedings-guidelines">LNCS style</a>, plus possibly bibliography and appendices. However, program committee members are not required to read the appendices, thus papers must be intelligible without them.</p>
-        <p>Short papers are also welcome: they should present tools, benchmarks, case-studies or be extended abstracts of ongoing research. Short papers should not exceed 6 pages, excluding extra material as above.</p>
+          <h4>Instructions for Authors</h4>
+          <p>We solicit regular and short papers.  Paper submission must
+            be performed via the EasyChair system: <b>TODO</b>.</p>
+	  
+          <p>Regular papers must describe original work, be written
+            and presented in English, and must not substantially
+            overlap with papers that have been published or that are
+            under submission. Submitted papers will be judged on the
+            basis of significance, relevance, correctness,
+            originality, and clarity. They should clearly identify
+            what has been accomplished and why it is significant.</p>
+	
+          <p>Regular paper submissions should not exceed 15 pages
+            in <a href="https://www.springer.com/us/computer-science/lncs/conference-proceedings-guidelines">LNCS
+            style</a>, plus possibly bibliography and appendices
+            (<b>TODO: make this more precise</b>). However, program
+            committee members are not required to read the appendices,
+            thus papers must be intelligible without them.</p>
+
+	  <p>Short papers are also welcome: they should present tools,
+            benchmarks, case-studies or be extended abstracts of
+            ongoing research. Short papers should not exceed 6 pages,
+            excluding extra material as above.</p>
 		
-       <p>All accepted papers will be published as Lecture Notes in Computer Science (LNCS) with Springer Verlag <a href="http://www.springer.com/lncs">http://www.springer.com/lncs</a>. 
-         <!-- You need to fill in a <a href="Contract_Book_Contributor_Consent_to_Publish_LNCS_SIP.pdf">copyright form</a> and submit together with the camery-ready version.</p> -->
+	  <p><b>TODO</b>: All accepted papers will be published as
+	    Lecture Notes in Computer Science (LNCS) with Springer
+	    Verlag <a href="http://www.springer.com/lncs">http://www.springer.com/lncs</a>.
         </div>
       </div>
-<!--       <div class="row" id="cfp">
-        <div class="col">
-        <h4>Call for Papers</h4>
-        <p><a href="nsv21-cfp.txt">Text version of the CFP.</a></p>
-        </div>
-      </div> -->
     </div>
     <div class="container" id="invited">
-      <h2 class="border-bottom">Invited Speakers</h2>
-            <ul>
-              <li>Stanley Bak,  Stony Brook University, USA</li>
-              <li>Eva Darulova,  Max Planck Institute for Software Systems, Germany</li>
-               <li>Sanjit A. Seshia, University of California, Berkeley, USA</li>
-               <li>Yu Wang, Duke University, USA</li>
-               <li>Bai Xue,  State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences, China</li>
-            </ul>
+      <h2 class="border-bottom">Invited Speakers (TBD)</h2>
     </div>
     <div class="container" id="accepted">
-      <h2 class="border-bottom">Accepted Papers</h2>
-            <ul>
-              <li><b>Modeling round-off errors in hydrodynamic simulations</b><br>Authors: William Weens, Thibaud Vazquez-Gonzalez and Louise Ben Salem-Knapp</li>
-              <li><b>An Efficient Summation Algorithm for the Accuracy, Convergence and Reproducibility of Parallel Numerical Methods</b><br>Authors: Farah Benmouhoub, Matthieu Martel and Pierre-Loic Garoche</li>
-              <li><b>Formal Verification of Neural Network Controllers for Collision-Free Flight</b><br>Authors: Daniel Genin, Ivan Papusha, Joshua Brule, Tyler Young, Galen Mullins, Yanni Kouskoulas, Rosa Wu and Aurora Schmidt</li>
-            </ul>
+      <h2 class="border-bottom">Accepted Papers (TBD)</h2>
     </div>
 
     <div class="container" id="organization">
@@ -519,31 +214,14 @@ dominated by the scheme errors in our numerical experiments.</p>
         <div class="col">
         <h4>Program Committee Chairs</h4>
         <ul>
-          <li>Rayna Dimitrova, CISPA Helmholtz Center for Information Security, Germany</li>
-          <li>Chuchu Fan, Massachusetts Institute of Technology, USA</li>
+          <li>Laura Nenzi, University of Trieste, Italy</li>
+          <li>Radoslav Ivanov, University of Pennsylvania, USA</li>
         </ul>
         </div>
       </div>
       <div class="row" id="pc">
         <div class="col">
-        <h4>Program Committee</h4>
-        <ul>
-        <li>Houssam Abbas, Oregon State University</li>
-        <li>Jyotirmoy Deshmukh, University of Southern California</li>
-        <li>Bruno Dutertre, SRI International</li>
-        <li>Sicun Gao, University of California San Diego </li>
-        <li>Mirco Giacobbe, University of Oxford</li>
-        <li>Taylor T Johnson, Vanderbilt University</li>
-        <li>Soonho Kong, Toyota Research Institute</li>
-        <li>Laura Nenzi, University of Trieste</li>
-        <li>Nicola Paoletti, Royal Holloway, University of London</li>
-        <li>Yasser Shoukry, University of California, Irvine</li>
-        <li>Miriam  García Soto, IST Austria</li>
-        <li>Sadegh Soudjani, Newcastle University </li>
-        <li>Hoang-Dung Tran, Vanderbilt University</li>
-        <li>Tichakorn (Nok) Wongpiromsarn, Iowa State University </li>
-        <li>Paolo Zuliani, Newcastle University </li>
-        </ul>
+        <h4>Program Committee (TBD)</h4>
         </div>
       </div>
       <div class="row" id="steering">
@@ -572,26 +250,27 @@ dominated by the scheme errors in our numerical experiments.</p>
       <div class="row" id="prev">
         <div class="col">
       <ul class="list-unstyled" >
-      <li><a href="https://nsv2020.github.io">2020, July 20-21, virtual, collocated with CAV 2020</a></li>
-      <li><a href="https://nsv19.mpi-sws.org/">2019, July 13-14, New York, NY, USA, collocated with CAV 2019</a></li>
-      <li><a href="https://nsv-2018.github.io/nsv2018/">2018, July 18, Oxford, UK, collocated with FLoC 2018</a></li>
-      <li><a href="http://www.cs.ox.ac.uk/conferences/NSV17/">2017, July 22-23, Heidelberg, Germany, collocated with CAV 2017</a></li>
-      <li><a href="https://nsv2016.pages.ist.ac.at/">2016, July 17-18, Toronto, Ontario, Canada, collocated with CAV 2016</a></li>
-      <li><a href="http://nsv2015.informatik.uni-freiburg.de/">2015, April 13, Seattle, USA, collocated with CPSWeek 2015</a></li>
-      <li><a href="http://www.lix.polytechnique.fr/~bouissou/NSV14/">2014, July 17-18, Vienna, Austria, collocated with Vienna Summer of Logic 2014</a></li>
-      <li><a href="http://www.lix.polytechnique.fr/~ghorbal/NSV-2013/">2013, April 8, Philadelphia, Pennsylvania, collocated with CPSWeek 2013</a></li>
-      <li><a href="https://www.cs.rice.edu/~sc40/NSV/12/">2012, July 7-8, Berkeley, California, collocated with CAV 2012</a></li>
-      <li><a href="http://www.lix.polytechnique.fr/Labo/Sylvie.Putot/NSV-2011/">2011, July 14, Salt lake City, Utah, collocated with CAV 2011</a></li>
-      <li><a href="http://www.lix.polytechnique.fr/Labo/Sylvie.Putot/NSV3/">2010, July 15, Edinburgh, UK, collocated with FLoC 2010</a></li>
-      <li><a href="http://theory.stanford.edu/~srirams/nsv2/">2009, April 16, San Fransisco, California collocated with CPSWeek 2009</a></li>
-      <li><a href="http://theory.stanford.edu/~srirams/nsv/index.html">2008, July 8, Princeton, New Jersey, collocated with CAV 2008</a></li>
+	<li><a href="https://nsv2021.github.io">2021, July 18-19, virtual, collocated with CAV 2021</a></li>
+	<li><a href="https://nsv2020.github.io">2020, July 20-21, virtual, collocated with CAV 2020</a></li>
+	<li><a href="https://nsv19.mpi-sws.org/">2019, July 13-14, New York, NY, USA, collocated with CAV 2019</a></li>
+	<li><a href="https://nsv-2018.github.io/nsv2018/">2018, July 18, Oxford, UK, collocated with FLoC 2018</a></li>
+	<li><a href="http://www.cs.ox.ac.uk/conferences/NSV17/">2017, July 22-23, Heidelberg, Germany, collocated with CAV 2017</a></li>
+	<li><a href="https://nsv2016.pages.ist.ac.at/">2016, July 17-18, Toronto, Ontario, Canada, collocated with CAV 2016</a></li>
+	<li><a href="http://nsv2015.informatik.uni-freiburg.de/">2015, April 13, Seattle, USA, collocated with CPSWeek 2015</a></li>
+	<li><a href="http://www.lix.polytechnique.fr/~bouissou/NSV14/">2014, July 17-18, Vienna, Austria, collocated with Vienna Summer of Logic 2014</a></li>
+	<li><a href="http://www.lix.polytechnique.fr/~ghorbal/NSV-2013/">2013, April 8, Philadelphia, Pennsylvania, collocated with CPSWeek 2013</a></li>
+	<li><a href="https://www.cs.rice.edu/~sc40/NSV/12/">2012, July 7-8, Berkeley, California, collocated with CAV 2012</a></li>
+	<li><a href="http://www.lix.polytechnique.fr/Labo/Sylvie.Putot/NSV-2011/">2011, July 14, Salt lake City, Utah, collocated with CAV 2011</a></li>
+	<li><a href="http://www.lix.polytechnique.fr/Labo/Sylvie.Putot/NSV3/">2010, July 15, Edinburgh, UK, collocated with FLoC 2010</a></li>
+	<li><a href="http://theory.stanford.edu/~srirams/nsv2/">2009, April 16, San Fransisco, California collocated with CPSWeek 2009</a></li>
+	<li><a href="http://theory.stanford.edu/~srirams/nsv/index.html">2008, July 8, Princeton, New Jersey, collocated with CAV 2008</a></li>
       </ul>
-    </div>
-    </div>
+	</div>
+      </div>
     </div>
     <footer class="container">
-        <p>&copy; 2021 NSV 21 <!--<a
-            href="https://imprint.mpi-klsb.mpg.de/sws/nsv19.mpi-sws.org">Imprint</a> /--> <!--<a href="https://www.sussex.ac.uk/about/website/privacy-and-cookies/privacy">Data Protection</a> --> </p>
+      <p>&copy; 2022 NSV 22 <!--<a
+				href="https://imprint.mpi-klsb.mpg.de/sws/nsv19.mpi-sws.org">Imprint</a> /--> <!--<a href="https://www.sussex.ac.uk/about/website/privacy-and-cookies/privacy">Data Protection</a> --> </p>
     </footer>
 
     <!-- Optional JavaScript -->
