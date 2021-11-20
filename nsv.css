@@ -1,0 +1,8 @@
+div.jumbotron {
+  background-image: url(skyline.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: -0.1em 0em 0.3em black, 0em 0.2em 0.3em black, 0.2em 0em 0.3em black, 0em -0.1em 0.3em black;
+}

@@ -1,0 +1,115 @@
+CALL FOR PAPERS - NSV 2021
+==========================
+
+14th International Workshop on Numerical Software Verification, 18-19 July 2021
+
+A workshop affiliated with CAV 2021 - Online
+
+Web Page: https://nsv2021.github.io
+
+Submission link: https://easychair.org/conferences/?conf=nsv21
+
+DEADLINE EXTENSION: 14 May (See below.)
+
+Description of the Workshop
+===========================
+
+Numerical computations are ubiquitous in digital systems: supervision, prediction, simulation and signal processing rely heavily on numerical calculus to achieve desired goals. Design and verification of numerical algorithms has a unique set of challenges, which set it apart from rest of software verification.
+
+The implementation of numerical techniques on modern hardware adds another layer of approximation because of the use of finite representations of infinite precision numbers that usually lack basic arithmetic properties such as commutativity and associativity.
+
+Finally, the development and analysis of cyber-physical systems (CPS) which involve the interacting continuous and discrete components pose a further challenge. It is hence imperative to develop logical and mathematical techniques for the reasoning about programmability and reliability.
+
+The NSV workshop is dedicated to the development of such techniques.
+
+This year, the NSV workshop is hosting a *special session on numerical computations in machine learning*. This includes, but is not limited to, performance vs accuracy trade-offs, reliability, robustness, co-design of hardware and software for numerical computations in machine learning frameworks.
+
+
+Topics
+======
+
+The scope of the workshop includes, but is not restricted to, the following topics:
+
+Quality of finite precision numerics
+- Representations of real numbers such as dfloat, finite precision, logarithmic number systems, etc
+
+Validation and verification of machine learning algorithms
+- Performance-accuracy trade-offs in floating point representations in machine learning
+- Robustness, reliability, and hardware software co-design for numerical computations in machine learning
+
+Validation and verification in scientific computing and simulations
+- Specifications of correctness of numerical algorithms
+- Numerical optimization methods
+
+Hybrid systems and control software verification
+- Quantitative and qualitative analysis of hybrid systems
+- Optimal control and synthesis of dynamical systems
+- Applications in space, avionics, automotive, systems biology, etc
+
+
+Important Dates
+===============
+
+Submissions deadline (extended):      May 14, 2021 23:59 (AoE)
+Notification:                       May 25, 2021
+Final version:                    June 2, 2021
+Workshop:                        July 18-19, 2021
+
+
+Submission information
+======================
+
+We solicit regular and short papers. Paper submission must be performed via EasyChair.
+
+Regular papers must describe original work, be written and presented in English, and must not substantially overlap with papers that have been published or that are under submission. Submitted papers will be judged on the basis of significance, relevance, correctness, originality, and clarity. They should clearly identify what has been accomplished and why it is significant.
+
+Regular paper submissions should not exceed 15 pages in LNCS style, plus possibly bibliography and appendices. However, program committee members are not required to read the appendices, thus papers must be intelligible without them. 
+
+Short papers are also welcome: they should present tools, benchmarks, case-studies or be extended abstracts of ongoing research. Short papers should not exceed 6 pages, excluding extra material as above. 
+
+All accepted papers will be published as Lecture Notes in Computer Science (LNCS) with Springer Verlag. 
+
+http://www.springer.com/lncs
+
+Invited Speakers
+================
+Stanley Bak, Stony Brook University
+Eva Darulova, Max Planck Institute for Software Systems
+Sanjit Seshia, University of California, Berkeley
+
+PC Chairs
+======
+
+Rayna Dimitrova, CISPA Helmholtz Center for Information Security, Germany
+Chuchu Fan, Massachusetts Institute of Technology, USA
+
+
+Program Committee
+=================
+
+Houssam Abbas, Oregon State University
+Jyotirmoy Deshmukh, University of Southern California
+Bruno Dutertre, SRI International
+Sicun Gao, University of California San Diego
+Mirco Giacobbe, University of Oxford
+Taylor T Johnson, Vanderbilt University
+Soonho Kong, Toyota Research Institute
+Laura Nenzi, University of Trieste
+Nicola Paoletti, Royal Holloway, University of London
+Yasser Shoukry, University of California, Irvine
+Miriam García Soto, IST Austria
+Sadegh Soudjani, Newcastle University
+Hoang-Dung Tran, Vanderbilt University
+Tichakorn (Nok) Wongpiromsarn, Iowa State University
+Paolo Zuliani, Newcastle University
+
+
+Steering Committee
+==================
+
+Sergiy Bogomolov (Newcastle University, UK)
+Radu Grosu (TU Vienna, Austria)
+Matthieu Martel (Université de Perpignan, France)
+Pavithra Prabhakar (Kansas State University, USA)
+Sriram Sankaranarayanan (UC Boulder, USA)
+
